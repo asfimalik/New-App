@@ -1,16 +1,18 @@
-import React, { Component } from 'react';
-import Header from "./component/Header"
+import React from 'react'
 import './App.css';
+import Iqra from './dinner'
 
-class App extends Component {
-  render() {
+function App(){
+
     return (
-      <div className="App">
-      <Header name="Moqeet"/>
-      </div>
-    );
-  }
-  }
-  
 
-export default App;
+        <div>
+                <Iqra name = "Iqra" />
+
+        </div>
+
+    )
+
+}
+
+export default App
